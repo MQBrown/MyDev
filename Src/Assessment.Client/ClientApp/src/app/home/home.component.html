@@ -1,0 +1,24 @@
+<div>
+  <div class="row">
+    <div class="form form-group col-sm-4" *ngFor="let board of boards">
+      <div class="card">
+        <h3 class="card-header">
+          {{ board.name }}
+        </h3>
+        <div class="card-body">
+          <b>Posts</b>
+          <ul>
+
+          </ul>
+        </div>
+        <div class="card-footer text-muted">
+          <small>Created {{ board.createdAt | date:short }}</small>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="container row">
+    <button class="btn btn-primary" (click)="onAddBoard()">Add Board</button>
+  </div>
+</div>
