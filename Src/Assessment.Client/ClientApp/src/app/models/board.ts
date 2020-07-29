@@ -3,3 +3,4 @@ export class Board {
   public CreatedAt: Date;
   public Name: string;
 }
+

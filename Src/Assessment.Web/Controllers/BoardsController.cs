@@ -29,6 +29,7 @@ namespace Assessment.Web.Controllers
         public bool Add([FromBody] Board board)
         {
             return boards.Add(board);
+
         }
 
         [HttpGet("{id}")]

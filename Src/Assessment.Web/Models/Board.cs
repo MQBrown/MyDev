@@ -15,6 +15,7 @@ namespace Assessment.Web.Models
         public Board() { }
         public Board(int id, DateTime createAt, string name)
         {
+
             Id = id;
             CreatedAt = createAt;
             Name = name;
